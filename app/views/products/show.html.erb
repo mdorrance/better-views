@@ -1,6 +1,11 @@
 <h1>Rails Helper Method Examples</h1>
 <h3>DISCLAIMER: The purpose of this page is to show many types of Rails helpers at the same time (not necessarily good code) </h3>
+<hr>
+<p>
+  <strong>exclaim!("hello, y'all!")</strong>
+  <%= exclaim!(@products.name) %>
 
+</p>
 <hr>
 
 <p>
@@ -38,7 +43,7 @@
 
 <hr>
 
-<p> 
+<p>
   <strong>date_select :product, :updated_at</strong>
   <%= date_select :product, :updated_at %> <br>
   <strong>check_box("post", "validated")</strong>
